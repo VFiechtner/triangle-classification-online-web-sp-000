@@ -14,8 +14,9 @@ class Triangle
         raise TriangleError
           puts error.message
         end
-    elsif 
-
+    elsif s1 == s2 && s1 == s3
+      self.kind = :equilateral
+    elsif s1 == s2 || 
   end
 
   class TriangleError < StandardError
