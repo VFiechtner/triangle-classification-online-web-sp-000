@@ -29,4 +29,3 @@ end
       puts "not a triangle"
     end
   end
-
